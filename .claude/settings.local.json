@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"c:\\\\Users\\\\vlogt\\\\Desktop\\\\LibrIA\\\\libria\\\\frontend\\\\src\\\\components\")",
+      "PowerShell(python --version 2>&1)",
+      "PowerShell(pip --version 2>&1)",
+      "PowerShell(python3 --version 2>&1)",
+      "PowerShell(py --version 2>&1)",
+      "PowerShell(winget install Python.Python.3.11 --silent --accept-package-agreements --accept-source-agreements 2>&1)",
+      "Bash(pip install *)",
+      "Bash(npm run *)"
+    ]
+  }
+}
